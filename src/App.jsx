@@ -1,5 +1,14 @@
+import { Box, Typography } from "@mui/material";
+import AuthPage from "./pages/AuthPage";
 function App() {
-  return <h1>پروژه دیوار</h1>;
+  return (
+    <Box>
+      <Typography>
+        پروژه دیوار
+      </Typography>
+      <AuthPage />
+    </Box>
+  );
 }
 
 export default App;
